@@ -72,7 +72,7 @@ Ensure you have the following installed on your environment:
 
    ```bash
    git clone <repository-url>
-   cd portfolio
+   cd my-portfolio
    ```
 
 2. **Install dependencies**:
@@ -87,7 +87,7 @@ Ensure you have the following installed on your environment:
    npm run dev
    ```
 
-   Open `http://localhost:5174` in your browser to view the application locally.
+   Open `http://localhost:5173` in your browser to view the application locally.
 
 4. **Expose to local network (Mobile Testing)**:
    Access `http://<your-local-ip>:5173` from any phone connected to the same Wi-Fi network.
