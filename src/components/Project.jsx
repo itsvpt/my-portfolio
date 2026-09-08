@@ -1,6 +1,10 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import bambooShopImg from "../assets/project_section/bamboo_shop.jpg";
+import buildingMaterialsImg from "../assets/project_section/Building_materials_system_image.jpg";
+import aiTravelPlannerImg from "../assets/project_section/ai_travel_planner.png";
+import aiSalesNetworkImg from "../assets/project_section/ai-sales-network.svg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,7 +21,7 @@ const projects = [
     tools: "React, FastAPI, PostgreSQL, Tailwind, Docker, Redis, Tailwind CSS",
     description:
       "A full-stack multi-platform e-commerce management system similar to TikTok Seller Center. The project consists of 3 integrated websites: a customer-facing product browsing platform, a seller dashboard for product and order management, and a company admin system to manage all sellers. Designed with clean architecture, real-time data synchronization, and scalable database structure.",
-    image: "/src/assets/project_section/bamboo_shop.jpg",
+    image: bambooShopImg,
     githubLink: "#project",
   },
   {
@@ -53,7 +57,7 @@ const projects = [
       "React, Node.js, Nest.js, PostgreSQL, Tailwind, Docker, Tailwind CSS",
     description:
       "A comprehensive management system designed for building materials store owners. The platform allows complete control over inventory, invoice generation and export, accounting tasks, vehicle fleet management (trucks, excavators, forklifts...), and employee administration. Built with a clean interface and efficient database architecture to streamline daily store operations.",
-    image: "/src/assets/project_section/Building_materials_system_image.jpg",
+    image: buildingMaterialsImg,
     githubLink: "#project",
   },
   {
@@ -66,16 +70,16 @@ const projects = [
         </span>
       </>
     ),
-    category: "AI-Powered Travel Planning & Booking Platform",
+    category: "TripCAI Entertainment — AI Travel & Entertainment",
     tools:
       "React Native, React, Golang, OpenAI API, REST API, PostgreSQL, Tailwind CSS",
     description:
       "An intelligent travel application similar to Traveloka, enhanced with AI. Users can chat with AI to automatically generate personalized itineraries including places to eat, sleep, and visit. The system supports booking flights, trains, hotels, restaurant reservations, and more — all in one seamless platform.",
-    image: "/src/assets/project_section/ai_travel_planner.png",
+    image: aiTravelPlannerImg,
     githubLink: "#project",
   },
   {
-    name: "Bamboo ",
+    name: "Bamboo Shoe Shop",
     title: (
       <>
         BAMBOO <br />
@@ -88,7 +92,7 @@ const projects = [
     tools: "React, FastAPI, PostgreSQL, Docker, OpenAI API",
     description:
       "A full-stack online footwear store specializing in shoes and sandals. The application features an intelligent AI chatbot for product consultation and search, interactive product browsing, size selection, real-time inventory, and seamless online payment integration (Visa, MoMo, ZaloPay). Designed with a clean, modern UI and scalable architecture.",
-    image: "/src/assets/project_section/Bamboo_shoe_shop.jpg",
+    image: bambooShopImg,
     githubLink: "#project",
   },
   {
@@ -142,7 +146,7 @@ const projects = [
     tools: "React Native, Node.js, MySQL, Chart.js",
     description:
       "An intelligent sales network platform that helps businesses manage sales teams, track performance, and optimize revenue. Features AI-driven lead recommendations, real-time sales analytics, commission tracking, team hierarchy management, and detailed performance reports with interactive charts.",
-    image: "/src/assets/project_section/ai-sales-network.svg",
+    image: aiSalesNetworkImg,
     githubLink: "#project",
   },
 ];
